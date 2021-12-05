@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene4Controller">
+   <children>
+      <Label layoutX="158.0" layoutY="32.0" text="Age">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="75.0" text="Date of birth">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="132.0" text="Today">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="myDatePicker1" layoutX="143.0" layoutY="73.0" />
+      <DatePicker fx:id="myDatePicker2" layoutX="143.0" layoutY="130.0" onAction="#calculate" />
+      <Label layoutX="46.0" layoutY="190.0" text="Age">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="myLabel1" layoutX="45.0" layoutY="248.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="250.0" text="years" />
+      <Label fx:id="myLabel3" layoutX="45.0" layoutY="288.0" prefHeight="18.0" prefWidth="14.0" text="Label">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="289.0" text="months" />
+      <Label layoutX="104.0" layoutY="289.0" text="|" />
+      <Label fx:id="myLabel4" layoutX="110.0" layoutY="289.0" prefHeight="18.0" prefWidth="14.0" text="Label" />
+      <Label layoutX="124.0" layoutY="290.0" text="days" />
+      <Label alignment="CENTER" layoutX="215.0" layoutY="191.0" prefHeight="18.0" prefWidth="91.0" text="Next birthday" />
+      <Label fx:id="myLabel2" layoutX="247.0" layoutY="259.0" text="Label" />
+      <Label fx:id="myLabel5" layoutX="200.0" layoutY="297.0" prefHeight="18.0" prefWidth="14.0" text="Label">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="297.0" text="months" />
+      <Label layoutX="259.0" layoutY="295.0" text="|" />
+      <Label fx:id="myLabel6" layoutX="267.0" layoutY="295.0" prefHeight="18.0" prefWidth="14.0" text="Label" />
+      <Label layoutX="281.0" layoutY="297.0" text="days" />
+      <Label layoutX="146.0" layoutY="337.0" text="Summary" />
+      <Label layoutX="48.0" layoutY="373.0" text="Years" />
+      <Label layoutX="267.0" layoutY="374.0" text="Weeks" />
+      <Label layoutX="158.0" layoutY="374.0" text="Months" />
+      <Label layoutX="49.0" layoutY="474.0" text="Days" />
+      <Label layoutX="162.0" layoutY="474.0" text="Hours" />
+      <Label layoutX="263.0" layoutY="474.0" text="Minutes" />
+      <TextField fx:id="myTextField1" alignment="CENTER" layoutX="24.0" layoutY="399.0" prefHeight="26.0" prefWidth="77.0" />
+      <TextField fx:id="myTextField3" alignment="CENTER" layoutX="246.0" layoutY="399.0" prefHeight="26.0" prefWidth="77.0" />
+      <TextField fx:id="myTextField2" alignment="CENTER" layoutX="139.0" layoutY="399.0" prefHeight="26.0" prefWidth="77.0" />
+      <TextField fx:id="myTextField6" alignment="CENTER" layoutX="246.0" layoutY="505.0" prefHeight="26.0" prefWidth="77.0" />
+      <TextField fx:id="myTextField5" alignment="CENTER" layoutX="139.0" layoutY="505.0" prefHeight="26.0" prefWidth="77.0" />
+      <TextField fx:id="myTextField4" alignment="CENTER" layoutX="24.0" layoutY="505.0" prefHeight="26.0" prefWidth="77.0" />
+   </children>
+</AnchorPane>
