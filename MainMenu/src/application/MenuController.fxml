@@ -3,13 +3,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene1Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="341.0" style="-fx-background-color: turquoise;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene1Controller">
    <children>
-      <Button layoutX="159.0" layoutY="42.0" mnemonicParsing="false" onAction="#BMICalculator" text="BMI" />
-      <Button layoutX="265.0" layoutY="42.0" mnemonicParsing="false" onAction="#AgeCalculator" text="Age" />
-      <Button layoutX="26.0" layoutY="42.0" mnemonicParsing="false" onAction="#DiscountCalculator" text="Discount" />
-      <Button layoutX="120.0" layoutY="97.0" mnemonicParsing="false" onAction="#SimpleCalculator" prefHeight="26.0" prefWidth="114.0" text="Simple Calculator" />
-      <Button layoutX="57.0" layoutY="147.0" mnemonicParsing="false" onAction="#CurrencyCalculator" text="Currency" />
-      <Button layoutX="227.0" layoutY="147.0" mnemonicParsing="false" onAction="#InvestmentCalculator" text="Investment" />
+      <Button layoutX="159.0" layoutY="42.0" mnemonicParsing="false" onAction="#BMICalculator" style="-fx-background-color: yellow;" text="BMI" />
+      <Button layoutX="265.0" layoutY="42.0" mnemonicParsing="false" onAction="#AgeCalculator" style="-fx-background-color: pink;" text="Age" />
+      <Button layoutX="26.0" layoutY="42.0" mnemonicParsing="false" onAction="#DiscountCalculator" style="-fx-background-color: green;" text="Discount" />
+      <Button layoutX="120.0" layoutY="97.0" mnemonicParsing="false" onAction="#SimpleCalculator" prefHeight="26.0" prefWidth="114.0" style="-fx-background-color: blue;" text="Simple Calculator" />
+      <Button layoutX="57.0" layoutY="147.0" mnemonicParsing="false" onAction="#CurrencyCalculator" style="-fx-background-color: grey;" text="Currency" />
+      <Button layoutX="227.0" layoutY="147.0" mnemonicParsing="false" onAction="#InvestmentCalculator" style="-fx-background-color: silver;" text="Investment" />
    </children>
 </AnchorPane>

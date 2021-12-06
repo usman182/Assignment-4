@@ -3,6 +3,8 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -69,5 +71,10 @@
       <TextField fx:id="myTextField6" alignment="CENTER" layoutX="246.0" layoutY="505.0" prefHeight="26.0" prefWidth="77.0" />
       <TextField fx:id="myTextField5" alignment="CENTER" layoutX="139.0" layoutY="505.0" prefHeight="26.0" prefWidth="77.0" />
       <TextField fx:id="myTextField4" alignment="CENTER" layoutX="24.0" layoutY="505.0" prefHeight="26.0" prefWidth="77.0" />
+      <ImageView fitHeight="42.0" fitWidth="50.0" layoutX="241.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/16714-birthday-cake-600x600.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
